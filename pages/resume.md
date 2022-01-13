@@ -4,9 +4,22 @@ socialDescription: The Resumé of Michael Roper
 permalink: /resume/index.html
 layout: layouts/resume
 experience:
+  - title: Web Platforms Manager
+    company: Uniti Group Limited
+    date: 2022 - Present
+    items:
+      - Responsible for strategy and management of all customer-facing digital marketing
+        properties for multiple brands, including website builds, IA, UX, SEO, DevOps,
+        web performance and platform integration.
+      - Execution of acquisition strategy including SEO, PPC, and tracking channels such
+        as chat and inbound phone calls.
+      - Assisting marketing team with technical delivery of campaigns across multiple
+        advertising channels, including technical build, SEM/PPC, tagging, attribution
+        and integration.
+      - Stakeholder management for key projects across multiple areas of the business.
   - title: Digital Platforms Manager
     company: Vocus Communications
-    date: 2015 – Present
+    date: 2015 – 2022
     items:
       - Responsible for strategy and management of all customer-facing digital marketing
         properties for multiple brands, including website builds, IA, UX, SEO, DevOps,
