@@ -19,7 +19,7 @@ experience:
       - Stakeholder management for key projects across multiple areas of the business.
   - title: Digital Platforms Manager
     company: Vocus Communications
-    date: 2015 – 2022
+    date: 2015 – 2021
     items:
       - Responsible for strategy and management of all customer-facing digital marketing
         properties for multiple brands, including website builds, IA, UX, SEO, DevOps,
