@@ -5,10 +5,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "yarn run watch",
-    "build": "NODE_ENV=production eleventy",
-    "watch": "eleventy --serve --port=8080",
-    "yup": "yarn upgrade-interactive --latest"
+    "install": "yarn install",
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* eleventy",
+    "yup": "yarn upgrade --latest"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
