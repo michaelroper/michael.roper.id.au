@@ -1,4 +1,4 @@
-ARG TAG=12-alpine
+ARG TAG=16-alpine
 FROM node:$TAG
 
 WORKDIR /app

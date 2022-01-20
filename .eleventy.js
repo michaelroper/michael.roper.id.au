@@ -6,9 +6,6 @@ const absoluteUrl = require("@11ty/eleventy-plugin-rss/src/absoluteUrl")
 // Date and time
 const { DateTime } = require("luxon")
 
-// Tailwind plugin
-const pluginTailwindCSS = require("eleventy-plugin-tailwindcss")
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd")
@@ -17,9 +14,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("absoluteUrl", (href, base) =>
     absoluteUrl(href, base),
   )
-
-  // process the tailwind file
-  eleventyConfig.addPlugin(pluginTailwindCSS, { src: "assets/css/styles.css" })
 
   // compress and combine js files
   eleventyConfig.addFilter("jsmin", require("./utils/minify-js.js"))

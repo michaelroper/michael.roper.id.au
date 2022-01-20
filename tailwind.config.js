@@ -3,12 +3,11 @@ const plugin = require("tailwindcss/plugin")
 const colors = require("tailwindcss/colors")
 
 module.exports = {
-  purge: [
-    "./pages/**/*.md",
-    "./pages/**/*.njk",
+  content: ["./_site/**/*.{html,js}"],
+  content: [
+    "./pages/**/*.{md,njk}",
     "./_includes/**/*.njk",
-    "./assets/**/*.svg",
-    "./assets/**/*.js",
+    "./assets/**/*.{svg,js}",
   ],
   theme: {
     colors: {
@@ -16,7 +15,7 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
-      gray: colors.trueGray,
+      gray: colors.neutral,
       yellow: colors.amber,
       blue: colors.blue,
       indigo: colors.indigo,
@@ -36,13 +35,5 @@ module.exports = {
     padding: ["responsive", "last"],
   },
 
-  plugins: [
-    plugin(function ({ addBase, addUtilities, theme }) {
-      addBase({
-        body: {
-          "-webkit-font-smoothing": "subpixel-antialiased",
-        },
-      })
-    }),
-  ],
+  plugins: [require("@tailwindcss/typography")],
 }

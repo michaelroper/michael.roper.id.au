@@ -5,22 +5,29 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve",
+    "build:styles": "tailwindcss -i ./assets/css/styles.css -o ./dist/assets/css/styles.css",
+    "build:site": "eleventy",
+    "build": "npm run build:site & npm run build:styles",
     "debug": "DEBUG=* eleventy",
+    "serve:styles": "yarn build:styles -- --watch",
+    "serve:site": "yarn build:site -- --serve",
+    "serve": "concurrently \"yarn serve:site\" \"yarn serve:styles\"",
+    "start": "yarn serve",
+    "watch": "eleventy --watch",
     "yup": "yarn upgrade --latest"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "axios": "^0.24.0",
     "debug": "^4.3.3",
-    "dotenv": "^14.1.0",
-    "eleventy-plugin-tailwindcss": "^0.3.0",
+    "dotenv": "^14.2.0",
     "html-minifier": "^4.0.0",
     "luxon": "^2.3.0",
-    "markdown-it": "^12.3.2"
+    "markdown-it": "^12.3.2",
+    "@tailwindcss/typography": "^0.5.0",
+    "concurrently": "^7.0.0",
+    "eleventy-plugin-metagen": "^1.5.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12"
   }
 }
