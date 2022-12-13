@@ -16,6 +16,8 @@ module.exports = {
     linkedinUrl: "https://au.linkedin.com/in/ropermichael",
     githubUsername: "michaelroper",
     githubUrl: "https://github.com/michaelroper",
+    mastodonUsername: "@michaelroper@mastodon.cloud",
+    mastodonUrl: "https://mastodon.cloud/@michaelroper",
   },
   RSSFeed: false,
   sitemap: true,
