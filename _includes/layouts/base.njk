@@ -11,18 +11,6 @@
       {{ site.title }}</title>
     <meta name="description" content="{{ socialDescription or site.description }}">
 
-    {# Twitter metadata #}
-    <meta name="twitter:card" content="summary">
-    {% if site.author.twitterUsername %}
-      <meta name="twitter:site" content="{{ site.author.twitterUsername }}">
-    {% endif %}
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:description" content="{{ socialDescription or site.description }}">
-    {% if site.author.twitterUsername %}
-      <meta name="twitter:creator" content="{{ site.author.twitterUsername }}">
-    {% endif %}
-    {# End of Twitter metadata #}
-
     {# Facebook / Open Graph metadata #}
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:type" content="article"/>
@@ -39,8 +27,6 @@
       <link href="{{ site.author.mastodonUrl }}" rel="me">
     {% endif %}
     {# End of Rel links #}
-
-    <script async="async" src="https://cdn.splitbee.io/sb.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -75,7 +61,6 @@
     {# {% include "../../assets/js/scripts.js" %} #}
     {% endset %}
 
-    <script></script>
   </body>
 
 </html>

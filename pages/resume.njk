@@ -1,0 +1,125 @@
+---
+title: The Resumé of Michael Roper
+socialDescription: The Resumé of Michael Roper
+date: Last Modified
+permalink: /resume/index.html
+layout: layouts/base
+---
+
+<!-- Page -->
+<div class="max-w-4xl p-6 mx-auto sm:p-8 md:p-16">
+
+  <h1 class="text-2xl font-bold text-yellow-500 border-b-2 border-yellow-300">{{ title }}</h1>
+  <h2 class="mt-2 text-lg font-semibold text-indigo-700">{{ resume.basics.label }}</h2>
+
+  <section class="mt-8 first:mt-0">
+    <section class="py-8">
+      <p class="text-md ">{{ resume.basics.summary }}</p>
+    </section>
+  </section>
+
+  <section class="mt-8 first:mt-0">
+    <h2 class="mt-16 mb-6 text-sm font-bold tracking-widest text-yellow-500 uppercase border-b-2 border-yellow-300">
+      Experience
+    </h2>
+    {% for item in resume.work %}
+      <section class="mb-10 ml-4">
+        <header class="inline-block px-0 py-4 text-indigo-800">
+          <h3 class="text-lg font-semibold text-indigo-700">
+            {{ item.name }}
+          </h3>
+          <p class="leading-tight">
+            <span class="text-yellow-500">{{ item.position }}</span>
+            <span class="text-sm text-yellow-400">
+              ({{ item.startDate }}
+              {% if item.endDate %}
+                -
+                {{ item.endDate }}
+              {%- endif %})
+            </span>
+          </p>
+        </header>
+        {% if item.summary %}
+          <p class="mt-2 leading-normal text-gray-700 text-md">
+            {{ item.summary }}
+          </p>
+        {% endif %}
+        {% if item.highlights %}
+          <ul class="px-4 py-2 ml-4 space-y-4 text-sm leading-normal list-outside border-l-2 border-yellow-200 rounded-b-l">
+            {% for highlight in item.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </section>
+
+  <section class="mt-8 first:mt-0">
+    <div class="break-inside-avoid">
+      <h2 class="mt-16 mb-6 text-sm font-bold tracking-widest text-yellow-500 uppercase border-b-2 border-yellow-300">
+        Education
+      </h2>
+      {% for item in resume.education %}
+        <section class="mb-5 ml-4">
+          <header class="inline-block px-0 py-4 text-indigo-800">
+            <h3 class="text-lg font-semibold text-indigo-700">
+              {{ item.institution }}
+            </h3>
+            <p class="leading-tight">
+              <span class="text-yellow-500">{{ item.studyType }}</span>
+              <span class="text-sm text-yellow-400">
+                ({{ item.startDate }}
+                {% if item.endDate %}
+                  -
+                  {{ item.endDate }}
+                {%- endif %})
+              </span>
+            </p>
+          </header>
+          <p class="px-4 py-2 ml-4 space-y-4 text-sm leading-normal list-outside border-l-2 border-yellow-200 rounded-b-l">
+            {# {{ item.area }} #}
+            <span class="font-semibold">Courses:</span>
+            {% if item.courses %}
+              {# <br> #}
+              <ul class="px-4 py-2 ml-4 space-y-4 text-sm leading-normal list-outside border-l-2 border-yellow-200 rounded-b-l">
+                {% for course in item.courses %}
+                  <li>{{ course }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </p>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mt-8 first:mt-0">
+    <h2 class="mt-16 mb-6 text-sm font-bold tracking-widest text-yellow-500 uppercase border-b-2 border-yellow-300">
+      Skills
+    </h2>
+    <div class="grid grid-cols-2 divide-gray-400 divide-">
+      {% for skill in resume.skills %}
+        <section class="mb-5 mr-4">
+          <header>
+            <h3 class="text-lg font-semibold leading-tight text-indigo-700">
+              {{ skill.name }}
+            </h3>
+          </header>
+          <div class="my-3 last:pb-2">
+            <ul class="flex flex-wrap px-4 -mb-2 -mr-2 leading-normal border-l-2 border-yellow-200 text-md">
+              {% for keyword in skill.keywords %}
+                <li class="px-2 mb-2 mr-2 text-xs text-yellow-600 rounded bg-yellow-50">
+                  {{ keyword }}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+
+</div>
+
+<!-- end Page -->

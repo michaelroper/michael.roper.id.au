@@ -1,5 +1,4 @@
 module.exports = {
-  environment: process.env.NODE_ENV,
   title: "Michael Roper",
   url: "https://michael.roper.id.au",
   description: "Michael Roper's website",
@@ -10,15 +9,13 @@ module.exports = {
   },
   author: {
     name: "Michael Roper",
-    twitterUsername: "michaelroper",
-    twitterUrl: "https://twitter.com/michaelroper",
-    linkedinUsername: "ropermichael",
-    linkedinUrl: "https://au.linkedin.com/in/ropermichael",
     githubUsername: "michaelroper",
     githubUrl: "https://github.com/michaelroper",
+    linkedinUsername: "ropermichael",
+    linkedinUrl: "https://au.linkedin.com/in/ropermichael",
     mastodonUsername: "@michaelroper@mastodon.cloud",
     mastodonUrl: "https://mastodon.cloud/@michaelroper",
   },
   RSSFeed: false,
-  sitemap: true,
+  sitemap: false,
 }

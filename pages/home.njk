@@ -5,27 +5,24 @@ layout: layouts/base
 ---
 
 <div class="max-w-sm mx-auto my-8 overflow-hidden bg-white rounded-lg shadow-2xl ">
-    <div class="w-48 h-48 mx-auto mt-8 transition duration-200 bg-yellow-100 border-b-2 border-yellow-400 rounded-full shadow-xl hover:bg-yellow-300 hover:shadow-2xl">
-        <img class="object-contain object-top w-56 h-56 mx-auto transition duration-200 transform rounded hover:scale-125" src="/assets/images/mem-happy.png" alt="Michael's face">
-    </div>
-    <div class="px-6 py-8 space-y-8 text-lg text-center text-purple-800">
-        <h1 class="inline-block w-auto px-5 py-2 text-2xl font-semibold text-left text-purple-100 transition duration-200 ease-in-out bg-purple-800 border-b-2 border-purple-900 rounded-full rounded-tl-none shadow-lg ">👋 Hi, I'm Michael Roper!</h1>
-        <p class="text-xl font-semibold">I'm a web developer and technical marketer in Perth, Australia.</p>
-        <p>I currently manage digital marketing and web platforms at
-            <a href="https://www.unitigrouplimited.com/" class="px-1 bg-yellow-100 border-b border-yellow-400 hover:bg-yellow-200">Uniti Group</a>.</p>
-        <p>You can find me elsewhere below...</p>
-    </div>
-    <div class="grid grid-cols-3 text-xs rounded-b-lg bg-yellow-50">
-        <a class="p-4 text-center text-yellow-400 transition duration-300 ease-in-out transform rounded hover:text-purple-700 hover:bg-purple-100 hover:scale-125" href="{{ site.author.twitterUrl }}">
-            <span class="block w-6 h-6 mx-auto ">{% include "../assets/icons/twitter.svg" %}</span>
-            Twitter
-        </a>
-        <a class="p-4 text-center text-yellow-400 transition duration-300 ease-in-out transform rounded hover:text-purple-700 hover:bg-purple-100 hover:scale-125" href="{{ site.author.linkedinUrl }}">
-            <span class="block w-6 h-6 mx-auto ">{% include "../assets/icons/linkedin.svg" %}</span>
-            LinkedIn</a>
-        <a class="p-4 text-center text-yellow-400 transition duration-300 ease-in-out transform rounded hover:text-purple-700 hover:bg-purple-100 hover:scale-125" href="{{ site.author.githubUrl }}">
-            <span class="block w-6 h-6 mx-auto ">{% include "../assets/icons/github.svg" %}</span>
-            Github
-        </a>
-    </div>
+  <div class="w-48 h-48 mx-auto mt-8 transition duration-200 bg-yellow-100 border-b-2 border-yellow-400 rounded-full shadow-xl hover:bg-yellow-300 hover:shadow-2xl">
+    <img class="object-contain object-top w-56 h-56 mx-auto transition duration-200 transform rounded hover:scale-125" src="/assets/images/mem-happy.png" alt="Michael's face">
+  </div>
+  <div class="px-6 py-8 space-y-8 text-lg text-center text-purple-800">
+    <h1 class="inline-block w-auto px-5 py-2 text-2xl font-semibold text-left text-purple-100 transition duration-200 ease-in-out bg-purple-800 border-b-2 border-purple-900 rounded-full rounded-tl-none shadow-lg ">👋 Hi, I'm Michael Roper!</h1>
+    <p class="text-xl font-semibold">I'm a web developer and technical marketer in Perth, Australia.</p>
+    <p>I currently manage digital marketing and web platforms at
+      <a href="https://www.unitigrouplimited.com/" class="px-1 bg-yellow-100 border-b border-yellow-400 hover:bg-yellow-200">Uniti Group</a>.</p>
+    <p>You can
+      <a href="/resume/" class="px-1 bg-yellow-100 border-b border-yellow-400 hover:bg-yellow-200">view my resume</a>, or find me elsewhere below...</p>
+  </div>
+  <div class="grid grid-cols-2 text-xs rounded-b-lg bg-yellow-50">
+    <a class="p-4 text-center text-yellow-400 transition duration-300 ease-in-out transform rounded hover:text-purple-700 hover:bg-purple-100 hover:scale-125" href="{{ site.author.linkedinUrl }}">
+      <span class="block w-6 h-6 mx-auto ">{% include "../assets/icons/linkedin.svg" %}</span>
+      LinkedIn</a>
+    <a class="p-4 text-center text-yellow-400 transition duration-300 ease-in-out transform rounded hover:text-purple-700 hover:bg-purple-100 hover:scale-125" href="{{ site.author.githubUrl }}">
+      <span class="block w-6 h-6 mx-auto ">{% include "../assets/icons/github.svg" %}</span>
+      Github
+    </a>
+  </div>
 </div>
