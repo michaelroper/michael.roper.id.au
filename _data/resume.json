@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Michael Roper",
-    "label": "Web Platforms Manager",
+    "label": "Senior Web & Platforms Engineer",
     "image": "",
     "email": "michael@roper.id.au",
     "url": "https://michael.roper.id.au",
-    "summary": "Michael is a proficient Digital Marketer with strong technical skills and a focus on the customer experience across the entire journey, supported by a well-rounded knowledge of brand & product marketing in a B2B context and beyond. With over 15 years industry experience, he has broad skills in Marketing Automation, Inbound lead acquisition, Search Engine Marketing (SEM), Search Engine Optimisation (SEO), Content Management Systems (CMS), User Experience (UX) and Web Performance.",
+    "summary": "Michael is a senior web and platforms engineer with strong technical skills and over 20 years of experience designing, building, and operating high-performance websites for B2B technology and telecommunications brands. He specialises in modern Jamstack architectures (Astro, Next.js), design-system-driven frontends, and the integration of CMS, analytics, experimentation, and CI/CD pipelines to deliver fast, reliable, and measurable web experiences.",
     "location": {
       "city": "Perth",
       "countryCode": "AU"
@@ -34,12 +34,13 @@
       "position": "Web Platforms Manager",
       "startDate": "2022",
       "endDate": "Present",
-      "summary": "",
+      "summary": "Owner of multi-brand web platforms across Uniti's portfolio, leading architecture, implementation, and optimisation of modern web stacks.",
       "highlights": [
-        "Responsible for strategy and management of all customer-facing digital marketing properties for multiple brands, including website builds, IA, UX, SEO, DevOps, web performance and platform integration.",
-        "Execution of acquisition strategy including SEO, PPC, and tracking channels such as chat and inbound phone calls.",
-        "Assisting marketing team with technical delivery of campaigns across multiple advertising channels, including technical build, SEM/PPC, tagging, attribution and integration.",
-        "Stakeholder management for key projects across multiple areas of the business."
+        "Responsible for strategy and management of all customer-facing websites for multiple brands, including information architecture, UX, SEO, web performance and platform integration.",
+        "Led architecture and implementation of modern web stacks (Astro, Eleventy, Svelte, Tailwind, CloudCannon) deployed to Cloudflare Pages.",
+        "Implemented analytics, tracking and experimentation (GA/GA4, GTM, Hotjar, A/B testing) to support acquisition and conversion optimisation.",
+        "Implemented CI workflows using Bitbucket Pipelines and Cloudflare Pages previews to enable safe, reviewable changes across stakeholders.",
+        "Collaborated with marketing, product and sales stakeholders to deliver campaigns, landing pages and self-service customer journeys."
       ]
     },
     {
@@ -47,14 +48,13 @@
       "position": "Digital Platforms Manager",
       "startDate": "2015",
       "endDate": "2021",
-      "summary": "",
+      "summary": "Led development and operation of customer-facing web platforms and marketing technology for multiple telecommunications brands.",
       "highlights": [
-        "Responsible for strategy and management of all customer-facing digital marketing properties for multiple brands, including website builds, IA, UX, SEO, DevOps, web performance and platform integration.",
-        "Execution of acquisition strategy including SEO, PPC, and tracking channels such as chat and inbound phone calls.",
-        "Management of Marketing Automation platforms (Marketo/Bizible and Hubspot), and integrations with other marketing tools and wider business systems.",
-        "Assisting marketing team with technical delivery of campaigns across multiple advertising channels, including technical build, SEM/PPC, tagging, attribution and integration.",
-        "Management of key Social Media channels and content delivery.",
-        "Stakeholder management for key projects across multiple areas of the business."
+        "Responsible for strategy and management of customer-facing digital properties for multiple brands, including website builds, IA, UX, SEO, web performance and platform integration.",
+        "Led rebuild of Vocus.com.au as a decoupled CMS/front-end architecture (Next.js + Craft CMS on AWS/Heroku), improving stability, performance, organic CTR and bounce rate.",
+        "Management of marketing automation platforms (Marketo, Bizible and HubSpot) and integrations with CRM and other business systems.",
+        "Implemented full-funnel inbound acquisition and attribution workflows (AdWords/DoubleClick through to Marketo/Bizible and Salesforce) to enable multi-channel ROI reporting.",
+        "Stakeholder and agency management for key projects across marketing, product and sales."
       ]
     },
     {
@@ -62,10 +62,11 @@
       "position": "Senior Web Designer",
       "startDate": "2010",
       "endDate": "2015",
-      "summary": "",
+      "summary": "Managed customer-facing web properties, marketing automation and digital campaigns.",
       "highlights": [
-        "Responsible for management of customer-facing web properties, including design, development, and content management.",
-        "Marketing Automation using Marketo, including system structure, template creation, campaign creation and assistance, reporting, and integrations.",
+        "Management of customer-facing websites for multiple brands, including design, development and content management.",
+        "Marketing automation using Marketo, including system structure, template creation, campaign build, reporting and integrations.",
+        "Optimised website architecture and assets in line with best practices for content and performance, achieving first-page Google rankings for key product keywords.",
         "Digital advertising campaign management, including tracking and reporting across multiple channels."
       ]
     },
@@ -74,13 +75,12 @@
       "position": "Web Development Consultant",
       "startDate": "2009",
       "endDate": "2010",
-      "summary": "",
+      "summary": "Delivered web and interface design and development for government and enterprise clients.",
       "highlights": [
         "Design and front-end development of websites, including eGov-compliant sites for state government clients.",
         "Interface design for desktop and web applications.",
         "Graphic design for bid collateral, annual reports, internal communications and training materials.",
-        "Creation of report and presentation templates for internal use.",
-        "Assisting with marketing for in-house web properties."
+        "Creation of report and presentation templates for internal use."
       ]
     },
     {
@@ -88,11 +88,11 @@
       "position": "Web Designer/Developer",
       "startDate": "2002",
       "endDate": "2010",
-      "summary": "",
+      "summary": "Freelance web design and development for small business and organisational clients.",
       "highlights": [
-        "Design and development of various websites for different clients, including deployment of content management systems, and development of custom PHP web applications.",
-        "Logo design & branding.",
-        "Liaising and communicating with clients, training them in use of CMS."
+        "Design and development of various websites for different clients, including deployment of content management systems and custom PHP web applications.",
+        "Logo design and branding.",
+        "Client communication, training and support for CMS use."
       ]
     },
     {
@@ -100,12 +100,12 @@
       "position": "Senior Web Developer",
       "startDate": "2007",
       "endDate": "2009",
-      "summary": "",
+      "summary": "Developed and maintained websites and web applications for agency clients.",
       "highlights": [
-        "Development & implementation of websites, from supplied design to HTML/CSS templates, and build to a CMS.",
-        "Development of PHP web applications, including research, planning, development, testing, and support.",
-        "Design of website layouts, email newsletter templates, and assisting with concepts for brands & products.",
-        "Ongoing training & support for clients."
+        "Development and implementation of websites from supplied designs to HTML/CSS templates and CMS builds.",
+        "Development of PHP web applications, including research, planning, development, testing and support.",
+        "Design of website layouts, email newsletter templates and assistance with brand and product concepts.",
+        "Ongoing training and support for clients."
       ]
     },
     {
@@ -113,12 +113,12 @@
       "position": "Web & CMS Systems Administrator",
       "startDate": "2004",
       "endDate": "2007",
-      "summary": "",
+      "summary": "Managed internal web applications and public web presence for a national printing franchise.",
       "highlights": [
-        "Interface design & development of a network-wide quoting/CRM application.",
-        "Design & development of company intranet.",
-        "Maintenance & updates for the public website.",
-        "Managing Online Print Management sites for Worldwide franchises and their clients."
+        "Interface design and development of a network-wide quoting/CRM application.",
+        "Design and development of company intranet.",
+        "Maintenance and updates for the public website.",
+        "Managing online print management sites for franchises and their clients."
       ]
     }
   ],
@@ -136,74 +136,83 @@
   ],
   "skills": [
     {
-      "name": "Marketing Automation",
+      "name": "Web engineering and frameworks",
       "keywords": [
-        "Marketo",
-        "Hubspot",
-        "Salesforce",
-        "Bizible",
-        "Litmus",
-        "Mailchimp",
-        "Campaign Monitor"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Astro",
+        "Next.js",
+        "React",
+        "VueJS",
+        "Svelte",
+        "Eleventy",
+        "GatsbyJS",
+        "PHP",
+        "Serverless frameworks"
       ]
     },
     {
-      "name": "Content Management",
+      "name": "Design systems and UI",
       "keywords": [
+        "Tailwind CSS",
+        "Component libraries",
+        "Storybook",
+        "Figma",
+        "Sketch",
+        "Adobe Creative Suite"
+      ]
+    },
+    {
+      "name": "Content platforms and CMS",
+      "keywords": [
+        "CloudCannon",
         "Craft CMS",
-        "Wordpress",
+        "WordPress",
         "Drupal",
         "Sitecore",
         "Sitefinity"
       ]
     },
     {
-      "name": "Web platforms",
+      "name": "DevOps and hosting",
       "keywords": [
-        "Google Marketing Platform (GA, Ads, Search Console, Data Studio)",
+        "Git workflows",
+        "CI/CD pipelines",
+        "Bitbucket Pipelines",
+        "GitLab CI",
+        "TeamCity (exposure)",
+        "Cloudflare Pages",
+        "Vercel",
+        "Netlify",
+        "AWS",
+        "Heroku",
+        "Web server management"
+      ]
+    },
+    {
+      "name": "Analytics, experimentation and SEO",
+      "keywords": [
+        "Google Analytics / GA4",
+        "Google Tag Manager",
+        "Google Search Console",
         "Hotjar",
         "Optimizely",
         "SEMrush",
-        "Unbounce",
-        "Klipfolio"
+        "PPC/SEM",
+        "A/B testing"
       ]
     },
     {
-      "name": "Programming Languages and Frameworks",
+      "name": "Marketing automation and CRM",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "VueJS",
-        "React",
-        "PHP",
-        "Serverless frameworks"
-      ]
-    },
-    {
-      "name": "Graphic/UI Design",
-      "keywords": [
-        "Adobe Creative Suite",
-        "Figma",
-        "Sketch"
-      ]
-    },
-    {
-      "name": "Social Media",
-      "keywords": [
-        "Hootsuite",
-        "Facebook Business",
-        "LinkedIn Platform",
-        "Twitter"
-      ]
-    },
-    {
-      "name": "DevOps/Infrastructure",
-      "keywords": [
-        "Web server management",
-        "Git workflows",
-        "Build pipelines & deployments",
-        "AWS infrastructure"
+        "Marketo",
+        "HubSpot",
+        "Salesforce",
+        "Bizible",
+        "Mailchimp",
+        "Campaign Monitor",
+        "Litmus"
       ]
     }
   ]
